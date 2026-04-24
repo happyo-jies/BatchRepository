@@ -13,4 +13,4 @@ echo 依赖安装完成，开始执行脚本...
 
 echo.
 echo 执行完成！
-pause
+timeout 5
