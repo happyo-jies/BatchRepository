@@ -1,4 +1,5 @@
 
+chcp 65001 >nul 2>&1
 taskkill /f /im outlook.exe
 echo 关闭outlook
 

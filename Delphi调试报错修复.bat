@@ -1,5 +1,5 @@
 @echo off
-chcp 65001 >nul
+chcp 65001 >nul 2>&1
 setlocal enabledelayedexpansion
 
 :: 脚本说明：修改注册表[HKEY_CURRENT_USER\Control Panel\Desktop\]中的UserPreferencesMask键值

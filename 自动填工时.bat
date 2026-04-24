@@ -1,5 +1,5 @@
 @echo off
-chcp 936
+chcp 65001 >nul 2>&1
 
 set "PROJECT_DIR=D:\Myself Project\DingTalk Timesheet Automation"
 set "VENV_DIR=%PROJECT_DIR%\.venv"

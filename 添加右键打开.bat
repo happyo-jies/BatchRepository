@@ -1,5 +1,5 @@
 @echo off
-chcp 65001 >nul
+chcp 65001 >nul 2>&1
 title 添加 VS Code 右键菜单
 color 0B
 

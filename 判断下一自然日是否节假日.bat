@@ -1,5 +1,6 @@
 @echo off
 SETLOCAL EnableDelayedExpansion
+chcp 65001 >nul 2>&1
 mode con: cols=120 lines=25
 color 0F
 
