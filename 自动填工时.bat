@@ -1,17 +1,16 @@
 @echo off
-
 chcp 936
 
-cd /d "D:\Python Project\DingTalk Timesheet Automation"
+set "PROJECT_DIR=D:\Myself Project\DingTalk Timesheet Automation"
+set "VENV_DIR=%PROJECT_DIR%\.venv"
+set "PYTHON_EXE=%VENV_DIR%\Scripts\python.exe"
 
-call .venv\Scripts\activate.bat
+echo 项目目录：%PROJECT_DIR%
+echo 虚拟环境Python路径：%PYTHON_EXE%
 
-echo 已激活虚拟环境，开始执行脚本...
-
-python main.py
+echo 依赖安装完成，开始执行脚本...
+"%PYTHON_EXE%" "%PROJECT_DIR%\main.py"
 
 echo.
-
 echo 执行完成！
-
-timeout 3
+pause
