@@ -1,16 +1,16 @@
 
 taskkill /f /im outlook.exe
-echo 关闭outlook
+echo 鍏抽棴outlook
 
 start  /min "" "C:\Program Files\Microsoft Office\root\Office16\OUTLOOK.EXE"
-echo 运行outlook
+echo 杩愯outlook
 
 
 taskkill /f /im memreduct.exe
-echo 关闭memreduct
+echo 鍏抽棴memreduct
 
 start  /min "" "D:\Program Files\Mem Reduct\memreduct.exe"
-echo 运行memreduct
+echo 杩愯memreduct
 
 taskkill /f /im  hsvaluate.exe
 
