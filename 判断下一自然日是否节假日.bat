@@ -13,7 +13,6 @@ color 0F
 for /f "delims=" %%a in ('powershell "(Get-Date).ToString('yyyy-MM-dd')"') do set "today=%%a"
 :: 获取明天日期：YYYY-MM-DD
 for /f "delims=" %%a in ('powershell "(Get-Date).AddDays(1).ToString('yyyy-MM-dd')"') do set "tomorrow=%%a"
-set tomorrow=2026-04-06
 
 echo ========================================================
 echo              节假日判断工具 - 优化稳定版
