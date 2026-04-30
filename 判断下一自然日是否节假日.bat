@@ -77,7 +77,7 @@ goto End
 echo ========================================================
 echo [结果] 满足条件：今天工作日 + 明天非工作日
 echo [操作] 正在启动 自动填工时.bat
-call "自动填工时.bat"
+call "D:\Myself Project\Batch Scripts\自动填工时.bat"
 echo [完成] 脚本执行完毕
 goto End
 
@@ -86,3 +86,4 @@ goto End
 echo.
 echo ========================================================
 echo 任务全部结束退出...
+pause
